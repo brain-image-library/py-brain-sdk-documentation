@@ -1,0 +1,51 @@
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+env/
+venv/
+ENV/
+.venv/
+
+# Build directories
+build/
+_build/
+output/
+doctrees/
+*.tmp
+*.log
+
+# Temporary files
+*.swp
+*.swo
+*~
+*.bak
+
+# Sphinx generated files
+*.doctree
+*.pickle
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Dependency files
+*.egg-info/
+*.egg
+*.lock
+pip-log.txt
+
+# Coverage and testing
+coverage.xml
+*.coverage
+.cache/
+nosetests.xml
+pytest_cache/
